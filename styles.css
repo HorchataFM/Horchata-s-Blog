@@ -10,6 +10,10 @@ header {
   color: white;
 }
 
+nav {
+  margin: 20px 0;
+}
+
 nav ul {
   display: flex;
   justify-content: center;

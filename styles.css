@@ -41,7 +41,7 @@ nav a:hover {
   animation: fadein 1s;
 }
 
-artciel {
+article {
   border: 1px solid #ccc;
   padding: 15px;
   flex: 1;
@@ -51,14 +51,20 @@ form {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  margin: auto;
+  margin: 20x auto;
   gap: 10px;
+}
+
+label {
+  text-align: left;
 }
 
 input,
 textarea {
+  width: 100%
   padding: 10px;
-  transition: border-color 0.3s. background-color 0.3s;
+  box-sizing: border-box;
+  
 }
 
 input:hover,

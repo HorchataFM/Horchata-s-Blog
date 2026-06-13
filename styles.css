@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #555
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #888;
+}
+
+.blog-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  animation: fadein 1s;
+}
+
+artciel {
+  border: 1px solid #ccc;
+  padding: 15px;
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  transition: border-color 0.3s. background-color 0.3s;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+border-color: blue;
+background-color: #f0f8ff;
+}
+@keyframes fadein {
+  from { 
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Phones */
+@media (max-width: 767px) {
+  .blog-container {
+    flex-direction: column;
+  }
+}
+
+/* Tables */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .blog-container {
+    flex-direction: row;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .blog-container {
+    flex-direction: row;
+  }
+}
+
+

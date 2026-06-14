@@ -59,7 +59,7 @@ form {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  margin: 20x auto;
+  margin: 0 auto;
   gap: 10px;
 }
 
@@ -83,8 +83,13 @@ background-color: #f0f8ff;
 }
 
 main {
-  max-width:1200px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+#contact {
+  max-width: 500px;
+  margin: 30px auto;
 }
 
 @keyframes fadein {

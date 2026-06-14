@@ -52,6 +52,7 @@ article {
   flex: 1;
   min-width: 300px;
   max-width: 400px;
+  background-color: white;
 }
 
 form {
@@ -80,6 +81,12 @@ textarea:focus {
 border-color: blue;
 background-color: #f0f8ff;
 }
+
+main {
+  max-width:1200px;
+  margin: 0 auto;
+}
+
 @keyframes fadein {
   from { 
     opacity: 0;
